@@ -1,0 +1,18 @@
+@red: red;
+
+.colorRed() {
+  color: @red;
+  content: "I'm using LESS!"
+}
+
+body {
+  header {
+    h1 {
+      .colorRed();
+    }
+  }
+}
+
+.module {
+  background: @red;
+}
